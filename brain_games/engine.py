@@ -1,11 +1,8 @@
 from brain_games.cli import welcome_user
 
+
 def run_game(game_logic, rounds=3):
-    """
-    Универсальный движок для игр.
-    game_logic — функция, возвращающая (question, correct_answer)
-    rounds — количество правильных ответов для победы
-    """
+
     print("Welcome to the Brain Games!")
     name = welcome_user()
     correct_count = 0

@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def is_prime(n: int) -> bool:
     if n < 2:
         return False

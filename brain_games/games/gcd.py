@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def generate_question():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)

@@ -1,5 +1,6 @@
 import random
 
+
 def generate_progression(length=10, min_length=5):
     length = max(length, min_length)
     start = random.randint(1, 20)
