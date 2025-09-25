@@ -21,8 +21,8 @@ def run_game(game_logic, rounds=3):
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
-            return 
+            return
         print("Correct!")
-        correct_count += 1 
+        correct_count += 1
 
-    print(f"Congratulations, {name}!")  
+    print(f"Congratulations, {name}!")
